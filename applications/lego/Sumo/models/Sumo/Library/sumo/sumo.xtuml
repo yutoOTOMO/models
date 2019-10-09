@@ -302,8 +302,8 @@ relate n to d across R2;
 
 d.speed = 255;
 
-n.retreat_duration = 2;
-n.target_duration = 2.56;// 1.34
+n.retreat_duration = 1;
+n.target_duration = 0.8;// 2.56 360deg// 1.34 180deg
 
 generate navigate1:pop() to n;
 
